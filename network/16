@@ -1,0 +1,5 @@
+Il faudrait faire la commande:
+
+echo "62.210.207.183 intra.42.fr" >> /etc/hosts 
+
+Intra.42.fr devient ensuite inaccessible

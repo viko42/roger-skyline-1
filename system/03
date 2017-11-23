@@ -1,0 +1,3 @@
+/etc/hostname
+
+Depuis la commande: scutil --set HostName name-of-host
