@@ -1,1 +1,1 @@
-networksetup -getmacaddress en0
+networksetup -getmacaddress en1
