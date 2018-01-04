@@ -7,4 +7,4 @@ else
 	md5sum /etc/crontab > md5cron
 fi;
 #echo "0 0 * * * bash 04" > cronfile;
-#rontab -u root cronfile
+#crontab -u root cronfile
