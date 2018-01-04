@@ -1,4 +1,2 @@
-# apt-get install nmap
-nmap de 10.51.1.81
-# Services about this command returns multiples values about PORT / STATE /  SERVICE 
-ldap and ldapssl are openned.
+host 10.51.1.253
+c'est un serveur DHCP
