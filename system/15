@@ -1,1 +1,1 @@
-pkill -f 'tail -f /var/log/system.log'
+pkill tail
