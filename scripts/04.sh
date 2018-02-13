@@ -1,3 +1,4 @@
+#!/bin/sh
 if [ -f ./md5cron ]; then
 	result=$(variable=$(md5sum /etc/crontab) && diff md5cron <(echo $variable))
 	if [ -n "$result" ]; then
@@ -6,5 +7,5 @@ if [ -f ./md5cron ]; then
 else
 	md5sum /etc/crontab > md5cron
 fi;
-#echo "0 0 * * * bash 04" > cronfile;
-#crontab -u root cronfile
+echo "0 0 * * * /bin/sh /${PWD##*/}/04.sh 2>&1" > cronfile
+crontab -u root cronfile
